@@ -1,0 +1,65 @@
+<html>
+<body>
+<head>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head
+<div class="container">
+
+  <div class="row">
+    <div class="text-center"><h1>WORST CASE SCENARIO MILLIONAIRE</h1></div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-4 col-xs-12 top-buffer">
+      <audio preload="auto" id="letsplay">
+        <source src="sound/letsplay.mp4" type="audio/mpeg">
+        </audio>
+      <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('letsplay').play()">LET'S PLAY</button>
+    </div>
+
+    <div class="col-md-4 col-xs-12 top-buffer">
+      <audio preload="auto" id="question">
+        <source src="sound/question.mp4" type="audio/mpeg">
+      </audio>
+      <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('question').play()">QUESTION</button>
+    </div>
+
+
+    <div class="col-md-4 col-xs-12 top-buffer">
+      <audio preload="auto" id="final">
+        <source src="sound/final.mp4" type="audio/mpeg">
+      </audio>
+      <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('final').play()">FINAL</button>
+    </div>
+
+    <div class="col-md-4 col-xs-12 top-buffer">
+      <audio preload="auto" id="win">
+        <source src="sound/win.mp4" type="audio/mpeg">
+      </audio>
+      <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('win').play()">WIN</button>
+    </div>
+
+    <div class="col-md-4 col-xs-12 top-buffer">
+      <audio preload="auto" id="lose">
+        <source src="sound/lose.mp4" type="audio/mpeg">
+      </audio>
+      <button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('lose').play()">LOSE</button>
+    </div>
+
+<div class="row">
+<script>
+function stop() {
+      var audioPlayer = document.getElementsByTagName('audio')[0];
+      audioPlayer.pause();
+</script
+
+</div>
+
+  </div>
+
+</div>
+
+<body>
+</html>
